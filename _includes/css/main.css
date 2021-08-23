@@ -124,6 +124,34 @@ header .intro-text .skills {
     }
 }
 
+@font-face {
+    font-family: 'Charm';
+    src: url('../../css/font-charm/font/Charm-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Charm';
+    src: url('../../css/font-charm/font/Charm-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Amita';
+    src: url('../../css/font-amita/font/Amita-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Amita';
+    src: url('../../css/font-amita/font/Amita-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 25px 0;
@@ -145,6 +173,11 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+    }
+
+    .navbar-brand{
+        font-family: 'Amita';
+        text-transform: capitalize;
     }
 }
 

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Amita';
+    src: url('../font/Amita-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Amita';
+    src: url('../font/Amita-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
